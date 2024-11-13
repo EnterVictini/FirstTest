@@ -12,10 +12,6 @@ class SecurePage extends Page {
     get productPage () {
         return $('.app_logo');
     }
-    get errorpupup () {
-        return $('button[class="error-button"]');
-    }
-
 }
 
 export default new SecurePage();
